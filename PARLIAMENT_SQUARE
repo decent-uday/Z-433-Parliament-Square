@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+  long  int m,n,a,l,b;
+    scanf("%ld%ld%ld",&m,&n,&a);
+    
+    if(m%a==0)
+        l=m/a;
+    else
+        l=m/a+1;
+    
+     if(n%a==0)
+        b=n/a;
+    else
+        b=n/a+1;
+    
+    printf("%ld",l*b);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
